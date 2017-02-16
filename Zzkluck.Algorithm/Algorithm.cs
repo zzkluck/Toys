@@ -22,7 +22,7 @@ namespace Zzkluck
 			T temp = default(T);
 			if (i == 0)
 				return 0;
-			while (--i != 0)
+			while (--i > 0)
 			{
 				j = r.Next(i);
 				temp = someArray[i];

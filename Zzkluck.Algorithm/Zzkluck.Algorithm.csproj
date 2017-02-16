@@ -7,7 +7,7 @@
     <ProjectGuid>{B7568770-5CD9-4081-A5B0-FB2990493A85}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Zzkluck.Algorithm</RootNamespace>
+    <RootNamespace>Zzkluck</RootNamespace>
     <AssemblyName>Zzkluck.Algorithm</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Algorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
